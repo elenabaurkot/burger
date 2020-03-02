@@ -6,9 +6,10 @@ var connection = mysql.createConnection({
     port: 3306,
     user: "root",
     password: process.env.MYSQL_PW,
-    database: "burgers_DB"
+    database: "burgers_db"
   });
 
+  // Make connection
   connection.connect(function(err) {
     if (err) {
         console.error("error connecting: " + err.stack);
