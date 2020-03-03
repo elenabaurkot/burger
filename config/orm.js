@@ -74,41 +74,8 @@ function printQuestionMarks(num) {
         cb(result);
       });
     },
-    // delete: function(table, condition, cb) {
-    //   var queryString = "DELETE FROM " + table;
-    //   queryString += " WHERE ";
-    //   queryString += condition;
-  
-    //   connection.query(queryString, function(err, result) {
-    //     if (err) {
-    //       throw err;
-    //     }
-  
-    //     cb(result);
-    //   });
-    // }
+
   };
   
   // Export the orm object for the model (cat.js).
   module.exports = orm;
-  
-  // var orm = {
-//     selectAll: function(table){
-//         var queryString = "SELECT * FROM ??";
-//         connection.query(queryString, [table], function(err, res) {
-//             console.table(res);
-//         });
-//     }, 
-//     insertOne: function(table, col, val){
-//         var queryString = "INSERT INTO ?? (??) VALUES (?)";
-//         connection.query(queryString, [table, col, val], function(err, res) {
-//             if (err) throw err; 
-//         })
-//     },
-//     updateOne: function(column, columnName, id){
-//         var queryString = "UPDATE burgers SET ?? = ? WHERE id = ?";
-//         connection.query(queryString, [column, columnName, id], function(err, res) {
-//             if (err) throw err; 
-//         })
-//     }
-// };

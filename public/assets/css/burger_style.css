@@ -13,3 +13,26 @@ input{
     border-radius: 5px; 
     outline: 1px, solid, rgb(237, 237, 237);
 }
+
+li{
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-bottom: 15px;
+    list-style-position: inside;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.change-eaten {
+    margin-bottom: 25px;
+}
+
+.uneaten-burger{
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+}
